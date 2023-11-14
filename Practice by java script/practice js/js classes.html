@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+   <script>
+    class students{
+    constructor(Name,Age,cls){
+        this.name = Name;
+        this.age = Age;
+        this.class = cls;
+    }
+biodata(){
+    console.log(`My name is ${this.name}.I am${this.age} years old.I am student of ${this.class}.`);
+}
+}
+let obj_1 = new students("Ali Raza",18,"Fsc");
+let obj_2 = new students("Raza Ali",20,"ICs");
+let obj_3 = new students("Hania saeed",22,"FA");
+let obj_4 = new students("Iqra Aziz",25,"Diploma");
+obj_1.biodata();
+obj_2.biodata();
+obj_3.biodata();
+obj_4.biodata();
+   </script>
+</body>
+</html>

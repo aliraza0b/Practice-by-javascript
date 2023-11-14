@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+</head>
+<body>
+    <header>
+        <h1>Your Name's Portfolio</h1>
+    </header>
+    <main id="app"></main>
+    <script src="app.js">
+    </script>
+    <script>
+        import React from 'react';
+
+function Portfolio() {
+    return (
+        <section id="portfolio">
+            <h2>My Portfolio</h2>
+            {/* Add your React components for the portfolio items */}
+        </section>
+    );
+}
+
+export default Portfolio;
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Portfolio from './components/Portfolio';
+
+ReactDOM.render(<Portfolio />, document.getElementById('app'));
+
+    </script>
+</body>
+</html>

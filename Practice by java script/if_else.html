@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice by if else</title>
+</head>
+
+<body>
+<h1 id="helo"></h1>
+    <script>
+        document.write("Practice by if else conditions");
+        document.write("<br>")
+        const age = 20
+
+        if (age == 20) {
+            document.write("Age is 20");
+        }
+        else {
+            document.write("Age is not 20");
+        }
+        let day;
+        switch (new Date().getDay()){
+            case 0:
+                day = "Sunday";
+                break;
+            case 1:
+                day = "Monday";
+                break;
+            case 2:
+                day = "Tuesday";
+                break;
+            case 3:
+                day = "Wednesday";
+                break;
+            case 4:
+                day = "Thursday";
+                break;
+            case 5:
+                day = "Friday";
+                break;
+            case 6:
+                day = "Saturday";
+                break;
+        }
+        document.getElementById("helo").innerHTML ="Today is :"+ day;
+    </script>
+</body>
+
+</html>
